@@ -66,8 +66,8 @@ class QuoteBox extends React.Component {
               <h5 id="text" className="card-title text-center"><i class="fa fa-quote-left"></i> {this.state.quote}</h5>
               <p id="author" className="card-text text-end">- {this.state.author}</p>
               <div className="row">
-                <a href={this.state.twitterLink} id="tweet-quote" className="color btn col-sm-1"><i className="fa fa-twitter"></i></a>
-                <button id="new-quote" onClick={this.handleClick} className="color btn offset-sm-8 col-sm-3">New Quote</button>
+                <a href={this.state.twitterLink} id="tweet-quote" className="color btn col-2"><i className="fa fa-twitter"></i></a>
+                <button id="new-quote" onClick={this.handleClick} className="color btn offset-5 col-5">New Quote</button>
               </div>
             </div>
           </div>
