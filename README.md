@@ -1,6 +1,6 @@
 # Quote Generator
 
-Look at random quotes in the [Quote Generator].
+Look at random quotes in the [Quote Generator](https://ll-nick.github.io/quote-generator/).
 
 This project was built to pass the Free Code Camp front end development libraries curriculum.
 
