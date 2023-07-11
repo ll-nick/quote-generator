@@ -1,0 +1,19 @@
+:root {
+    --main-color: #0081AF;
+    --text-contrast-color: #FFFFFF;
+}
+
+
+.color {
+    background-color: var(--main-color) !important;
+    color: var(--text-contrast-color) !important;
+    transition: background-color 1s,
+        color 1s;
+
+}
+
+#text,
+#author {
+    color: var(--main-color);
+    transition: color 1s;
+}
